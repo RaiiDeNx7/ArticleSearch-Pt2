@@ -1,4 +1,4 @@
-# Android Lab 4 - *Article Search App*
+v# Android Lab 4 - *Article Search App*
 
 Submitted by: **Hunter Smith**
 
