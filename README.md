@@ -1,26 +1,26 @@
-v# Android Lab 4 - *Article Search App*
+# Android Lab 5 - *Article Search App Part 2*
 
 Submitted by: **Hunter Smith**
 
-**Article Search App** is an app that uses an API to display articles. It allows you to clik in to each article and view the information.
+**Article Search App** is an app that uses an API to display articles. It allows you to click into each article and view the information. The app uses a database that works with airplane mode.
 
 Time spent: **1.5** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
-- [x] The core requirements for this project will allow a user to see a list of article abstracts, with the article title, description, and media photo
-- [x] When they tap on a specific article, it will navigate them to a details screen with the same information, along with the article's author.
+- [x] Most recently fetched data is stored locally in a database
+- [x] If user turns on airplane mode and closes and reopens app, old data from the database should be loaded
 
 ## Stretch Features
 
-- [ ] For stretch features, enhance the UI for our application will be customized to apply fonts and use ConstraintLayout for each of the screens.
+- [ ] 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='./ArticleSearch.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./ArticleSearch2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -28,7 +28,7 @@ GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
 
 ## Notes
 
-This one was much more smoother for me. I mistakenly forgot quotes around my API Key which caused some errors but it was an easy fix.
+I made a mistake adding the application into my Manifest XML, which caused my app to immediately crash on opening. Once I figured this out, I had no other struggles.
 
 ## License
 
