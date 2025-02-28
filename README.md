@@ -4,7 +4,7 @@ Submitted by: **Hunter Smith**
 
 **Article Search App** is an app that uses an API to display articles. It allows you to click into each article and view the information. The app uses a database that works with airplane mode.
 
-Time spent: **1.5** hours spent in total
+Time spent: **2.5** hours spent in total
 
 ## Required Features
 
