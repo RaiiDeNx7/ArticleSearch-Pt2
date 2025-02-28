@@ -25,12 +25,12 @@ class DetailActivity : AppCompatActivity() {
         abstractTextView = findViewById(R.id.mediaAbstract)
 
         // TODO: Get the extra from the Intent
-        val article = intent.getSerializableExtra(ARTICLE_EXTRA) as Article
+        val article = intent.getSerializableExtra(ARTICLE_EXTRA) as DisplayArticle
 
         // TODO: Set the title, byline, and abstract information from the article
-        titleTextView.text = article.headline?.main
-        bylineTextView.text = article.byline?.original
-        abstractTextView.text = article.abstract
+        titleTextView.text = article.headline ?: "No Title"
+        bylineTextView.text = article.byline ?: "Unknown Author"
+        abstractTextView.text = article.abstract ?: "No Abstract"
 
         // TODO: Load the media image
         Glide.with(this)
